@@ -1,8 +1,3 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
-
 import re
 from os import environ,getenv
 from Script import script 
@@ -20,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '24652824'))
 API_HASH = environ.get('API_HASH', 'eaca6d81c81f01149442cfeee6dbb4be')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6825470552:AAFLk97V5mvRkdrxNrQuQeglS-cGDIRnnXg")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6825470552:AAGJS_myT3Xe2pAdLRX5Sbv5YHQIKvgVv2U")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -65,7 +60,7 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+oZ27l2vnexphZTVl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/SAM_DUB_LEZHa')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/SMD_Dulinks')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
+MSG_ALRT = environ.get('MSG_ALRT', '⚓𝐒𝐌𝐃_BOTz🍁')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002139585101'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+oZ27l2vnexphZTVl')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
