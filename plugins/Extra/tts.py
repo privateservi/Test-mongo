@@ -1,14 +1,10 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
-
 import traceback
 from asyncio import get_running_loop
 from io import BytesIO
 
+from googletrans import Translator
 from gtts import gTTS
-from pyrogram import Client, filters
+from pyrogram import Client, filters, enums
 from pyrogram.types import Message
 
 
@@ -40,6 +36,3 @@ async def text_to_speech(_, message: Message):
         await m.edit(e)
         e = traceback.format_exc()
         print(e)
-
-
-
