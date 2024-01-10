@@ -1351,25 +1351,37 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     
     elif query.data == "help":
-        buttons = [[
-             InlineKeyboardButton('🕸𝐀𝐝𝐦𝐢𝐧 𝐎𝐧𝐥𝐲🍁', callback_data='admin'),
-         ], [ 
-             InlineKeyboardButton('🪁𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞📷', callback_data='store_file'),   
-             InlineKeyboardButton('🐬𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐩𝐡🥀', callback_data='tele') 
-         ], [ 
-             InlineKeyboardButton('🍁𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧𝐬🌲', callback_data='coct'), 
-             InlineKeyboardButton('🌾𝐅𝐢𝐥𝐭𝐞𝐫𝐬🌸', callback_data='filters'),  
-             InlineKeyboardButton('🔍𝐘𝐭𝐃𝐥🔎', callback_data='ytdl') 
-         ], [ 
-             InlineKeyboardButton('📎𝐒𝐡𝐚𝐫𝐞 𝐓𝐞𝐱𝐭🔗', callback_data='share'), 
-             InlineKeyboardButton('💿𝐒𝐨𝐧𝐠💿', callback_data='song') 
-         ], [
-             InlineKeyboardButton('🕸𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲💸', callback_data='shortlink_info'),
-             InlineKeyboardButton('💎𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐈𝐝💎', callback_data='sticker'),
-             InlineKeyboardButton('🔌𝐉𝐒𝐨𝐧🪙', callback_data='json'),  
-         ], [             
-             InlineKeyboardButton('🎋𝐁𝐚𝐜𝐤🍁', callback_data='start')
-        ]]
+        buttons = [[                               
+            InlineKeyboardButton('📸ᴛᴇʟᴇɢʀᴀᴘʜ​', callback_data='tele'),
+            InlineKeyboardButton('sʜᴀʀᴇ ᴛᴇxᴛ​', callback_data='share_txt'),
+            InlineKeyboardButton('ɢᴇɴ-ᴘᴀss​', callback_data='gen_pass')
+            ],[
+            InlineKeyboardButton('🎶sᴏɴɢ', callback_data='song'),
+            InlineKeyboardButton('📽ᴠɪᴅᴇᴏ', callback_data='video'),
+            InlineKeyboardButton('ᴘᴜʀɢᴇ​', callback_data='purge')
+            ],[           
+            InlineKeyboardButton('🚫ᴊsᴏɴᴇ', callback_data='json'),
+            InlineKeyboardButton('📯ᴛᴛs', callback_data='tts'),           
+            InlineKeyboardButton('🆎ғᴏɴᴛ', callback_data='font')
+            ],[
+            InlineKeyboardButton('🎧ᴀᴜᴅʙᴏᴏᴋ', callback_data='abook'),
+            InlineKeyboardButton('♻️ᴜʀʟ_sʜᴏʀᴛ', callback_data='urlshort'),
+            InlineKeyboardButton('ᴘɪɴɢ', callback_data='pings')                                   
+            ],[                               
+            InlineKeyboardButton('🔮ᴘɪɴ​', callback_data='pin'),
+            InlineKeyboardButton('❗️ᴋɪᴄᴋ', callback_data='zombies'),
+            InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric')
+            ],[
+            InlineKeyboardButton('🎭sᴛɪᴄᴋɪᴅ', callback_data='sticker'),
+            InlineKeyboardButton('❓ᴡʜᴏɪs', callback_data='whois'),
+            InlineKeyboardButton('🧪ᴄᴏᴠɪᴅ', callback_data='corona')
+            ],[
+            InlineKeyboardButton('🌍ᴄᴏᴜɴᴛʀʏ', callback_data='country'),
+            InlineKeyboardButton('📝ɢᴛʀᴀɴs', callback_data='gtrans'),
+            InlineKeyboardButton('💎ᴄᴀʀʙᴏɴ', callback_data='carb')
+            ],[
+            InlineKeyboardButton('⟲ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ​⟳', callback_data='help')
+         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
