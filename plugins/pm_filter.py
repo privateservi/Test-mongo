@@ -1408,24 +1408,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     
     elif query.data == "source":
-    await client.send_sticker(
+        buttons = [[
+            InlineKeyboardButton('🎋𝐁𝐚𝐜𝐤🍁', callback_data='about')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            await client.send_sticker(
         query.message.chat.id,
         "CAACAgUAAxkBAAEBE9NlnW_99bth-pKCUp7xpRuA_x3dbQACjQgAAlRUgVTJ8HhzKcWHyh4E"
-    )
-    buttons = [[
-        InlineKeyboardButton('🦋𝐁𝐚𝐜𝐤🍁', callback_data='about')
-    ]]
-    reply_markup = InlineKeyboardMarkup(buttons)
-    await client.edit_message_media(
-        query.message.chat.id, 
-        query.message.id, 
-        InputMediaPhoto(random.choice(PICS))
-    )
-    await query.message.edit_text(
-        text=script.SOURCE_TXT,
-        reply_markup=reply_markup,
-        parse_mode=enums.ParseMode.HTML
-    )
+            )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.SOURCE_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "extra":
         buttons = [[
             InlineKeyboardButton('⚙ 𝐀𝐝𝐦𝐢𝐧 𝐎𝐧𝐥𝐲​ ⚙', callback_data='admin')
