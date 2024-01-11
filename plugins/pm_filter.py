@@ -1352,25 +1352,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[                               
-            InlineKeyboardButton('𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐩𝐡​', callback_data='tele'),
-            InlineKeyboardButton('𝐒𝐡𝐚𝐫𝐞𝐓𝐞𝐱𝐭', callback_data='share'),
-            InlineKeyboardButton('𝐀𝐝𝐦𝐢𝐧 𝐎𝐧𝐥𝐲', callback_data='admin')
+            InlineKeyboardButton('📷𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐩𝐡⚓​', callback_data='tele'),
+            InlineKeyboardButton('📄𝐒𝐡𝐚𝐫𝐞𝐓𝐞𝐱𝐭⚓', callback_data='share'),
+            InlineKeyboardButton('🍁𝐀𝐝𝐦𝐢𝐧 𝐎𝐧𝐥𝐲⚓', callback_data='admin')
             ],[
-            InlineKeyboardButton('𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧𝐬', callback_data='coct'),
-            InlineKeyboardButton('𝐅𝐢𝐥𝐭𝐞𝐫𝐬', callback_data='filters'),
-            InlineKeyboardButton('𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞​', callback_data='store_file')
+            InlineKeyboardButton('🦋𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧𝐬⚓', callback_data='coct'),
+            InlineKeyboardButton('🕸𝐅𝐢𝐥𝐭𝐞𝐫𝐬⚓', callback_data='filters'),
+            InlineKeyboardButton('🗄𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞​⚓', callback_data='store_file')
             ],[           
-            InlineKeyboardButton('𝐕𝐢𝐝𝐞𝐨', callback_data='video'),
-            InlineKeyboardButton('𝐑𝐮𝐥𝐞𝐬', callback_data='rules'),           
-            InlineKeyboardButton('𝐁𝐮𝐭𝐭𝐨𝐧', callback_data='button')
+            InlineKeyboardButton('🎬𝐕𝐢𝐝𝐞𝐨⚓', callback_data='video'),
+            InlineKeyboardButton('🔥𝐑𝐮𝐥𝐞𝐬⚓', callback_data='rules'),           
+            InlineKeyboardButton('❄𝐁𝐮𝐭𝐭𝐨𝐧⚓', callback_data='button')
             ],[
-            InlineKeyboardButton('𝐘𝐓𝐃𝐋', callback_data='ytdl'),
-            InlineKeyboardButton('𝐓𝐭𝐬', callback_data='tts'),
-            InlineKeyboardButton('𝐂𝐨𝐫𝐨𝐧𝐚', callback_data='corona')                                   
+            InlineKeyboardButton('💎𝐘𝐓𝐃𝐋⚓', callback_data='ytdl'),
+            InlineKeyboardButton('🪡𝐓𝐭𝐬👨‍🎤', callback_data='tts'),
+            InlineKeyboardButton('💉𝐂𝐨𝐫𝐨𝐧𝐚⚓', callback_data='corona')                                   
             ],[                               
-            InlineKeyboardButton('𝐒𝐭𝐢𝐜𝐤𝐞𝐫𝐢𝐝​', callback_data='sticker'),
-            InlineKeyboardButton('𝐒𝐨𝐧𝐠', callback_data='song'),
-            InlineKeyboardButton('𝐉𝐬𝐨𝐧', callback_data='json')
+            InlineKeyboardButton('💃𝐒𝐭𝐢𝐜𝐤𝐞𝐫𝐢𝐝​🕸', callback_data='sticker'),
+            InlineKeyboardButton('💿𝐒𝐨𝐧𝐠☂️', callback_data='song'),
+            InlineKeyboardButton('📕𝐉𝐬𝐨𝐧📕', callback_data='json')
             ],[
             InlineKeyboardButton('🍁𝐁𝐚𝐜𝐤🎋', callback_data='start')
          ]]
@@ -1453,7 +1453,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "manuelfilter":
         buttons = [[
-            InlineKeyboardButton('🍁𝐁𝐚𝐜𝐤🎋', callback_data='filters'),
+            InlineKeyboardButton('🍁𝐅𝐢𝐥𝐭𝐞𝐫𝐬🎋', callback_data='filters'),
             InlineKeyboardButton('🪁𝐁𝐮𝐭𝐭𝐨𝐧𝐬🪁', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1469,8 +1469,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "button":
         buttons = [[
-            InlineKeyboardButton('🍁𝐁𝐚𝐜𝐤🎋', callback_data='manuelfilter')
-        ]]
+                    InlineKeyboardButton("🎋𝐁𝐚𝐜𝐤🍁", callback_data="help"),
+                    InlineKeyboardButton("🍁𝐌𝐚𝐧𝐮𝐚𝐥 𝐅𝐢𝐥𝐭𝐞𝐫🌲", callback_data="manuelfilter")
+                  ]]
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
