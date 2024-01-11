@@ -1360,11 +1360,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🕸𝐅𝐢𝐥𝐭𝐞𝐫𝐬⚓', callback_data='filters'),
             InlineKeyboardButton('🗄𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞​⚓', callback_data='store_file')
             ],[           
-            InlineKeyboardButton('🎬𝐕𝐢𝐝𝐞𝐨⚓', callback_data='video'),
+            InlineKeyboardButton('🎬𝐕𝐢𝐝𝐞𝐨⚓', callback_data='ytdl'),
             InlineKeyboardButton('🔥𝐑𝐮𝐥𝐞𝐬⚓', callback_data='rules'),           
             InlineKeyboardButton('❄𝐁𝐮𝐭𝐭𝐨𝐧⚓', callback_data='button')
             ],[
-            InlineKeyboardButton('💎𝐘𝐓𝐃𝐋⚓', callback_data='ytdl'),
+            InlineKeyboardButton('✍️𝐏𝐢𝐧☂️', callback_data='pin'),
             InlineKeyboardButton('🪡𝐓𝐭𝐬👨‍🎤', callback_data='tts'),
             InlineKeyboardButton('💉𝐂𝐨𝐫𝐨𝐧𝐚⚓', callback_data='corona')                                   
             ],[                               
@@ -1782,7 +1782,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
 )
-    elif query.data == "video":
+    elif query.data == "pin":
         buttons = [[
             InlineKeyboardButton('🎋𝐁𝐚𝐜𝐤🍁', callback_data='help')
         ]]
@@ -1802,7 +1802,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-            text=script.VIDEO_TXT,
+            text=script.PIN_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
