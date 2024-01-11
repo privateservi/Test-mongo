@@ -1364,7 +1364,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐑𝐮𝐥𝐞𝐬', callback_data='rules'),           
             InlineKeyboardButton('𝐁𝐮𝐭𝐭𝐨𝐧', callback_data='button')
             ],[
-            InlineKeyboardButton('𝐏𝐢𝐧', callback_data='pin'),
+            InlineKeyboardButton('𝐘𝐓𝐃𝐋', callback_data='ytdl'),
             InlineKeyboardButton('𝐓𝐭𝐬', callback_data='tts'),
             InlineKeyboardButton('𝐂𝐨𝐫𝐨𝐧𝐚', callback_data='corona')                                   
             ],[                               
@@ -1390,7 +1390,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🎋𝐒𝐭𝐚𝐭𝐬☘️​', callback_data='stats'),
             InlineKeyboardButton('🍁𝐒𝐨𝐮𝐫𝐜𝐞🎄​', callback_data='source')
         ],[
-            InlineKeyboardButton('🍁𝐒𝐌𝐃_𝐎𝐰𝐧𝐞𝐫☘️', callback_data='rendering_info')
+            InlineKeyboardButton('❄𝐒𝐞𝐫𝐯𝐞𝐫_𝐈𝐧𝐟𝐨🦋', callback_data='rendering_info')
         ],[            
             InlineKeyboardButton('🕸𝐇𝐨𝐦𝐞🐬', callback_data='start'),
             InlineKeyboardButton('🦞𝐂𝐥𝐨𝐬𝐞🕸', callback_data='close_data')
@@ -1408,9 +1408,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('🍁𝐁𝐚𝐜𝐤🎋', callback_data='about')
+            InlineKeyboardButton('🎋𝐁𝐚𝐜𝐤🍁', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -1600,20 +1609,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "shortlink_info":
             btn = [[
-                InlineKeyboardButton("👇 𝐒𝐞𝐥𝐞𝐜𝐭 𝐘𝐨𝐮𝐫 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 👇", callback_data="laninfo")
+                InlineKeyboardButton("𝐒𝐞𝐥𝐞𝐜𝐭 𝐎𝐰𝐧 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞", callback_data="laninfo")
         ], [
-            InlineKeyboardButton("🍁தமிழ்🍁", callback_data="tamil_info"),
-            InlineKeyboardButton("🍁English🍁", callback_data="english_info"),
-            InlineKeyboardButton("🍁हिंदी🍁", callback_data="hindi_info")
+            InlineKeyboardButton("தமிழ்", callback_data="tamil_info"),
+            InlineKeyboardButton("English", callback_data="english_info"),
+            InlineKeyboardButton("हिंदी", callback_data="hindi_info")
         ], [
-            InlineKeyboardButton("🍁മലയാളം🍁", callback_data="malayalam_info"),
-            InlineKeyboardButton("🍁اردو🍁", callback_data="urdu_info"),
-            InlineKeyboardButton("🍁বাংল🍁", callback_data="bangladesh_info")
+            InlineKeyboardButton("മലയാളം", callback_data="malayalam_info"),
+            InlineKeyboardButton("తెలుగ", callback_data="telugu_info"),
+            InlineKeyboardButton("বাংল", callback_data="bangladesh_info")
         ], [
-            InlineKeyboardButton("🍁తెలుగ🍁", callback_data="telugu_info"),
-            InlineKeyboardButton("🍁ಕನ್ನಡ🍁", callback_data="kannada_info"),
-            InlineKeyboardButton("🍁ગુજરાતી🍁", callback_data="gujarati_info"),
-            InlineKeyboardButton("🌿𝐁𝐚𝐜𝐤💥", callback_data="help")
+            InlineKeyboardButton("ಕನ್ನಡ", callback_data="kannada_info"),
+            InlineKeyboardButton("ગુજરાતી", callback_data="gujarati_info"),
+            InlineKeyboardButton("🍁𝐁𝐚𝐜𝐤🎋", callback_data="start")
 
             ]]
             await client.edit_message_media(
@@ -1628,21 +1636,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 parse_mode=enums.ParseMode.HTML
             )
     elif query.data == "tele":
-            btn = [[
-                    InlineKeyboardButton("🎋𝐁𝐚𝐜𝐤🍁", callback_data="🎋𝐁𝐚𝐜𝐤🍁"),
-                    InlineKeyboardButton("🍁𝐂𝐨𝐧𝐭𝐚𝐜𝐭🌲", url="telegram.me/SMD_Owner")
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.TELE_TXT),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
+        buttons = [[
+            InlineKeyboardButton('🎋𝐁𝐚𝐜𝐤🍁', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.TELE_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "ytdl":
         buttons = [[
             InlineKeyboardButton('🎋𝐁𝐚𝐜𝐤🍁', callback_data='help')
@@ -1669,37 +1685,77 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
 )
     elif query.data == "share":
-            btn = [[
-                    InlineKeyboardButton("🍁𝐁𝐚𝐜𝐤🎋", callback_data="help"),
-                    InlineKeyboardButton("🍁𝐂𝐨𝐧𝐭𝐚𝐜𝐭🌲", url="telegram.me/SMD_Owner")
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.SHARE_TXT),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
+        buttons = [[
+            InlineKeyboardButton('🎋𝐁𝐚𝐜𝐤🍁', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.SHARE_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "rules":
+        buttons = [[
+            InlineKeyboardButton('🎋𝐁𝐚𝐜𝐤🍁', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.RULES_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "song":
-            btn = [[
-                    InlineKeyboardButton("🍁𝐁𝐚𝐜𝐤🎋", callback_data="help"),
-                    InlineKeyboardButton("🍁𝐂𝐨𝐧𝐭𝐚𝐜𝐭🌲", url="telegram.me/SMD_Owner")
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.SONG_TXT),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
+        buttons = [[
+            InlineKeyboardButton('🎋𝐁𝐚𝐜𝐤🍁', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.SONG_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "json":
         buttons = [[
             InlineKeyboardButton('🎋𝐁𝐚𝐜𝐤🍁', callback_data='help')
@@ -1725,6 +1781,30 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
 )
+    elif query.data == "video":
+        buttons = [[
+            InlineKeyboardButton('🎋𝐁𝐚𝐜𝐤🍁', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.VIDEO_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "sticker":
         buttons = [[
             InlineKeyboardButton('🎋𝐁𝐚𝐜𝐤🍁', callback_data='help')
