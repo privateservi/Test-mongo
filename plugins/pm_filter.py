@@ -1353,34 +1353,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "help":
         buttons = [[                               
             InlineKeyboardButton('📸ᴛᴇʟᴇɢʀᴀᴘʜ​', callback_data='tele'),
-            InlineKeyboardButton('sʜᴀʀᴇ ᴛᴇxᴛ​', callback_data='share_txt'),
-            InlineKeyboardButton('ɢᴇɴ-ᴘᴀss​', callback_data='gen_pass')
+            InlineKeyboardButton('sʜᴀʀᴇ ᴛᴇxᴛ​', callback_data='share'),
+            InlineKeyboardButton('ɢᴇɴ-ᴘᴀss​', callback_data='admin')
             ],[
-            InlineKeyboardButton('🎶sᴏɴɢ', callback_data='song'),
-            InlineKeyboardButton('📽ᴠɪᴅᴇᴏ', callback_data='video'),
-            InlineKeyboardButton('ᴘᴜʀɢᴇ​', callback_data='purge')
+            InlineKeyboardButton('🎶sᴏɴɢ', callback_data='coct'),
+            InlineKeyboardButton('📽ᴠɪᴅᴇᴏ', callback_data='filters'),
+            InlineKeyboardButton('ᴘᴜʀɢᴇ​', callback_data='store_file')
             ],[           
-            InlineKeyboardButton('🚫ᴊsᴏɴᴇ', callback_data='json'),
-            InlineKeyboardButton('📯ᴛᴛs', callback_data='tts'),           
-            InlineKeyboardButton('🆎ғᴏɴᴛ', callback_data='font')
+            InlineKeyboardButton('🚫ᴊsᴏɴᴇ', callback_data='video'),
+            InlineKeyboardButton('📯ᴛᴛs', callback_data='rules'),           
+            InlineKeyboardButton('🆎ғᴏɴᴛ', callback_data='button')
             ],[
-            InlineKeyboardButton('🎧ᴀᴜᴅʙᴏᴏᴋ', callback_data='abook'),
-            InlineKeyboardButton('♻️ᴜʀʟ_sʜᴏʀᴛ', callback_data='urlshort'),
-            InlineKeyboardButton('ᴘɪɴɢ', callback_data='pings')                                   
+            InlineKeyboardButton('🎧ᴀᴜᴅʙᴏᴏᴋ', callback_data='pin'),
+            InlineKeyboardButton('♻️ᴜʀʟ_sʜᴏʀᴛ', callback_data='tts'),
+            InlineKeyboardButton('ᴘɪɴɢ', callback_data='corona')                                   
             ],[                               
-            InlineKeyboardButton('🔮ᴘɪɴ​', callback_data='pin'),
-            InlineKeyboardButton('❗️ᴋɪᴄᴋ', callback_data='zombies'),
-            InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric')
+            InlineKeyboardButton('🔮ᴘɪɴ​', callback_data='sticker'),
+            InlineKeyboardButton('❗️ᴋɪᴄᴋ', callback_data='song'),
+            InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='json')
             ],[
-            InlineKeyboardButton('🎭sᴛɪᴄᴋɪᴅ', callback_data='sticker'),
-            InlineKeyboardButton('❓ᴡʜᴏɪs', callback_data='whois'),
-            InlineKeyboardButton('🧪ᴄᴏᴠɪᴅ', callback_data='corona')
-            ],[
-            InlineKeyboardButton('🌍ᴄᴏᴜɴᴛʀʏ', callback_data='country'),
-            InlineKeyboardButton('📝ɢᴛʀᴀɴs', callback_data='gtrans'),
-            InlineKeyboardButton('💎ᴄᴀʀʙᴏɴ', callback_data='carb')
-            ],[
-            InlineKeyboardButton('⟲ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ​⟳', callback_data='help')
+            InlineKeyboardButton('🍁𝐁𝐚𝐜𝐤🎋', callback_data='start')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
