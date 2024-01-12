@@ -1408,31 +1408,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     
 elif query.data == "source":
-    buttons = [[
-        InlineKeyboardButton('🎋𝐁𝐚𝐜𝐤🍁', callback_data='about')
-    ]]
-    
-    # Send a sticker
-    xo = await query.message.reply_sticker(f"CAACAgUAAxkBAAEBE9NlnW_99bth-pKCUp7xpRuA_x3dbQACjQgAAlRUgVTJ8HhzKcWHyh4E")
-    await asyncio.sleep(1)
-    await xo.delete()
-    
-    # Send a sticker to the chat
-    await client.send_sticker(query.message.chat.id, sticker)
-    
-    # Edit the message to show a random photo from PICS list
-    await client.edit_message_media(
-        chat_id=query.message.chat.id, 
-        message_id=query.message.message_id, 
-        media=InputMediaPhoto(random.choice(PICS))
-    )
-    
-    # Edit the text of the message to show the SOURCE_TXT
-    await query.message.edit_text(
-        text=script.SOURCE_TXT,
-        reply_markup=reply_markup,
-        parse_mode=enums.ParseMode.HTML
-    )
+        buttons = [[
+            InlineKeyboardButton('🎋𝐁𝐚𝐜𝐤🍁', callback_data='about')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.SOURCE_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "extra":
         buttons = [[
             InlineKeyboardButton('⚙ 𝐀𝐝𝐦𝐢𝐧 𝐎𝐧𝐥𝐲​ ⚙', callback_data='admin')
