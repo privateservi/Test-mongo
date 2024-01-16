@@ -14,7 +14,7 @@ class script(object):
 ✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : <a href='https://t.me/SMD_Owner'>𝐒𝐌𝐃_𝐎𝐰𝐧𝐞𝐫</a>
 ✯ 𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦
 ✯ 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : 𝐏𝐲𝐭𝐡𝐨𝐧 𝟑
-✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 : 𝐀𝐭𝐥𝐚𝐬𝐝𝐛
+✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 : 𝐑𝐞𝐝𝐚𝐬
 ✯ 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 : 𝐕𝐏𝐒
 ✯ 𝐁𝐮𝐢𝐥𝐝 𝐒𝐭𝐚𝐭𝐮𝐬 : 𝐒𝐭𝐚𝐛𝐥𝐞 𝐒𝐞𝐫𝐯𝐢𝐜𝐞𝐬</b>"""
 
@@ -434,7 +434,12 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
-    LOGO = """ 𝐒𝐌𝐃 𝐁𝐎𝐓𝐳 𝐇𝐮𝐛 """
+    LOGO = """ ░██████╗███╗░░░███╗██████╗░██████╗░░█████╗░████████╗███████╗
+██╔════╝████╗░████║██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝╚════██║
+╚█████╗░██╔████╔██║██║░░██║██████╦╝██║░░██║░░░██║░░░░░███╔═╝
+░╚═══██╗██║╚██╔╝██║██║░░██║██╔══██╗██║░░██║░░░██║░░░██╔══╝░░
+██████╔╝██║░╚═╝░██║██████╔╝██████╦╝╚█████╔╝░░░██║░░░███████╗
+╚═════╝░╚═╝░░░░░╚═╝╚═════╝░╚═════╝░░╚════╝░░░░╚═╝░░░╚══════╝ """
  
     TAMIL_INFO = """
 ஏய் <a href='tg://settings'>My Friend</a> 
@@ -683,11 +688,11 @@ special Thanks To ❤️ Developers -
 
 -Dev 1 [Owner of this bot ]<a href='https://t.me/SMD_Owner'>🍁𝐒𝐌𝐃_𝐎𝐰𝐧𝐞𝐫🍁</a>
 
--Dev 2 <a href='https://t.me/SAM_DUB_LEZHa'>VJ</a>
+-Dev 2 <a href='https://t.me/SAM_DUB_LEZHa'>SMD</a>
 
--Dev 3 <a href='https://t.me/SAM_DUB_LEZHa>Jᴏᴇʟ </> TɢX</a>
+-Dev 3 <a href='https://t.me/SAM_DUB_LEZHa>Join</> TɢX</a>
 
-- Dev 4 <a href='https://t.me/SAM_DUB_LEZHa'>TEAM VJ</a>
+- Dev 4 <a href='https://t.me/SAM_DUB_LEZHa'>SMD_Owner</a>
 """
 
 
