@@ -458,7 +458,8 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
  படி 2: உங்கள் இணையதளம் மற்றும் API ஐச் சேர்க்கவும்
 
- Exp: /shortlink tnshort.net 4b392f8eb6ad711fbe58
+ Exp: (/shortlink upshrink.com 4b392f8eb6ad711fbe58) 
+ (https://upshrink.com/ref/108072209964502971288)
 
  வீடியோவைச் சேர்க்கவும்
 
@@ -485,8 +486,8 @@ Hey <a href='tg://settings'>My Friend</a>
 
  Step 2: Add your website and API
 
- Exp: /shortlink tnshort.net 4b392f8eb6ad711fbe58
-
+ Exp: (/shortlink upshrink.com 4b392f8eb6ad711fbe58) 
+ (https://upshrink.com/ref/108072209964502971288) 
  Add a video
 
  👇 How to add 👇
@@ -512,7 +513,8 @@ Also your tutorial will be Added Your Group..."""
 
  దశ 2: మీ వెబ్‌సైట్ మరియు APIని జోడించండి
 
- గడువు: /shortlink tnshort.net 4b392f8eb6ad711fbe58
+ గడువు: Exp: (/shortlink upshrink.com 4b392f8eb6ad711fbe58) 
+ (https://upshrink.com/ref/108072209964502971288)
 
  వీడియోను జోడించండి
 
@@ -539,7 +541,8 @@ Also your tutorial will be Added Your Group..."""
 
  चरण 2: अपनी वेबसाइट और एपीआई जोड़ें
 
- एक्सप: /शॉर्टलिंक tnshort.net 4b392f8eb6ad711fbe58
+ एक्सप: Exp: (/shortlink upshrink.com 4b392f8eb6ad711fbe58) 
+ (https://upshrink.com/ref/108072209964502971288)
 
  एक वीडियो जोड़ें
 
@@ -566,7 +569,8 @@ Also your tutorial will be Added Your Group..."""
 
  ഘട്ടം 2: നിങ്ങളുടെ വെബ്‌സൈറ്റും API-യും ചേർക്കുക
 
- കാലഹരണപ്പെടൽ: /shortlink tnshort.net 4b392f8eb6ad711fbe58
+ കാലഹരണപ്പെടൽ: Exp: (/shortlink upshrink.com 4b392f8eb6ad711fbe58) 
+ (https://upshrink.com/ref/108072209964502971288)
 
  ഒരു വീഡിയോ ചേർക്കുക
 
@@ -599,7 +603,8 @@ Also your tutorial will be Added Your Group..."""
 
  👇 کیسے شامل کریں 👇
 
- Exp: /set_tutorial ویڈیو لنک
+ Exp: Exp: (/shortlink upshrink.com 4b392f8eb6ad711fbe58) 
+ (https://upshrink.com/ref/108072209964502971288)
 
 نیز آپ کی ٹیم ویڈیو جمع کرنے کی تربیت دے گی..."""
 
@@ -620,7 +625,8 @@ Also your tutorial will be Added Your Group..."""
 
  પગલું 2: તમારી વેબસાઇટ અને API ઉમેરો
 
- સમાપ્તિ: /shortlink tnshort.net 4b392f8eb6ad711fbe58
+ સમાપ્તિ: Exp: (/shortlink upshrink.com 4b392f8eb6ad711fbe58) 
+ (https://upshrink.com/ref/108072209964502971288)
 
  વિડિઓ ઉમેરો
 
@@ -646,7 +652,8 @@ Also your tutorial will be Added Your Group..."""
 
  ಹಂತ 2: ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಮತ್ತು API ಸೇರಿಸಿ
 
- ಅವಧಿ: /shortlink tnshort.net 4b392f8eb6ad711fbe58
+ ಅವಧಿ: Exp: (/shortlink upshrink.com 4b392f8eb6ad711fbe58) 
+ (https://upshrink.com/ref/108072209964502971288)
 
  ವೀಡಿಯೊ ಸೇರಿಸಿ
 
@@ -672,13 +679,15 @@ Also your tutorial will be Added Your Group..."""
 
  ধাপ 2: আপনার ওয়েবসাইট এবং API যোগ করুন
 
- মেয়াদ: /shortlink tnshort.net 4b392f8eb6ad711fbe58
+ মেয়াদ: Exp: (/shortlink upshrink.com 4b392f8eb6ad711fbe58) 
+ (https://upshrink.com/ref/108072209964502971288)
 
  একটি ভিডিও যোগ করুন
 
  👇 কিভাবে যোগ করবেন 👇
 
- মেয়াদ: /set_tutorial ভিডিও লিঙ্ক
+ মেয়াদ: Exp: (/shortlink upshrink.com 4b392f8eb6ad711fbe58) 
+ (https://upshrink.com/ref/108072209964502971288)
 
 এছাড়াও আপনার দল ভিডিও সংগ্রহের প্রশিক্ষণ দেবে..."""
 
@@ -690,7 +699,7 @@ special Thanks To ❤️ Developers -
 
 -Dev 2 <a href='https://t.me/SAM_DUB_LEZHa'>SMD</a>
 
--Dev 3 <a href='https://t.me/SAM_DUB_LEZHa>Join</> TɢX</a>
+-Dev 3 <a href='https://t.me/SAM_DUB_LEZHa>Join</>SMD</a>
 
 - Dev 4 <a href='https://t.me/SAM_DUB_LEZHa'>SMD_Owner</a>
 """
