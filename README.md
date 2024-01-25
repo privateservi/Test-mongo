@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://graph.org/file/c3c6b55c9507bc585cb98.jpg" alt="VJ-Filter-Bot Logo">
+  <img src="https://graph.org/file/c3c6b55c9507bc585cb98.jpg" alt="SMD-Filter-Bot Logo">
 </p>
 <h1 align="center">
   𝐒𝐌𝐃_𝐁𝐎𝐓𝐳_𝐇𝐮𝐛
@@ -52,7 +52,7 @@
 - [x] 𝐴𝑢𝑡𝑜 𝐷𝑒𝑙𝑒𝑡𝑒
 - [x] 𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...
 
-<b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://telegram.dog/vj_botz'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
+<b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://telegram.dog/SmD_botz'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
 
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 ```
@@ -178,8 +178,8 @@ python3 bot.py
 
 ## Thanks to 
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
- - Thanks To VJ For His Awesome [Media-Search-bot](https://github.com/VJBots)
- - Thanks To [Tech VJ](https://youtube.com/@Tech_VJ)
+ - Thanks To VJ For His Awesome [Media-Search-bot](https://github.com/SMDBotz)
+ - Thanks To [SMD_Botz](https://youtube.com/@SMD_Botz)
  - Thanks To LazyDeveloperr for stream feature
  - Thanks To All Everyone In This Journey
 
