@@ -43,7 +43,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://smdfiletertest:smdfiletertest10@cluster0.bfkvuuf.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://smdfilt:smdfilt@cluster0.zar9gml.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -58,7 +58,7 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+oZ27l2vnexphZTVl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/SAM_DUB_LEZHa')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/SMD_Dulinks')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/SMD_Dulinks/28')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', '⚓𝐒𝐌𝐃_BOTz🍁')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001723140225'))
