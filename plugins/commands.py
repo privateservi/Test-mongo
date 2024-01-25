@@ -28,7 +28,7 @@ async def start(client, message):
                     InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url=CHNL_LNK),
                     InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('🌿𝐇𝐞𝐥𝐩🎧', callback_data='help'),
+                    InlineKeyboardButton('🌿𝐇𝐞𝐥𝐩🦋', callback_data='help'),
                     InlineKeyboardButton('♣𝐀𝐛𝐨𝐮𝐭🥀', callback_data='about')
                 ],[
                     InlineKeyboardButton('💸𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲💶', callback_data='shortlink_info'),
@@ -109,7 +109,7 @@ async def start(client, message):
                     InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url=CHNL_LNK),
                     InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('🌿𝐇𝐞𝐥𝐩🎧', callback_data='help'),
+                    InlineKeyboardButton('🌿𝐇𝐞𝐥𝐩🦋', callback_data='help'),
                     InlineKeyboardButton('♣𝐀𝐛𝐨𝐮𝐭🥀', callback_data='about')
                 ],[
                     InlineKeyboardButton('💸𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲💶', callback_data='shortlink_info'),
@@ -132,7 +132,7 @@ async def start(client, message):
         file_id = data
         pre = ""
     if data.split("-", 1)[0] == "BATCH":
-        sts = await message.reply("<b>Please wait...</b>")
+        sts = await message.reply("<b>𝐏𝐥𝐞𝐚𝐬𝐞 𝐰𝐚𝐢𝐭...</b>")
         file_id = data.split("-", 1)[1]
         msgs = BATCH_FILES.get(file_id)
         if not msgs:
@@ -427,7 +427,7 @@ async def start(client, message):
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@SAM_DUB_LEZHa  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = '@SAM_DUB_LEZHa' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -448,7 +448,7 @@ async def start(client, message):
             pass
         return await message.reply(' 𝐍𝐨 𝐬𝐮𝐜𝐡 𝐟𝐢𝐥𝐞 𝐞𝐱𝐢𝐬𝐭 .')
     files = files_[0]
-    title = '@SAM_DUB_LEZHa  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
+    title = '@SAM_DUB_LEZHa' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
     size=get_size(files.file_size)
     f_caption=files.caption
     if CUSTOM_FILE_CAPTION:
