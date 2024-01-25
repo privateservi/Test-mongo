@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """𝐇𝐞𝐥𝐥𝐨... {}
     
-𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/SMD_FiltSream_Bot><b>🍁🇸 🇲 🇩 Ⱥᵾŧø ᶠⁱˡᵗᵉʳ + 𝐒𝐫𝐞𝐚𝐦𝐁𝐨𝐭🎋</b></a>
+𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/Samandes_bot><b>🍁🇸 🇲 🇩 Ⱥᵾŧø ᶠⁱˡᵗᵉʳ🦋</b></a>
 
 𝐈 𝐂𝐚𝐧 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐌𝐨𝐯𝐢𝐞𝐬, 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐌𝐚𝐤𝐞 𝐌𝐞 𝐀𝐝𝐦𝐢𝐧.. 𝐓𝐡𝐞𝐧 𝐒𝐞𝐞 𝐌𝐲 𝐏𝐨𝐰𝐞𝐫
 
@@ -10,7 +10,7 @@ class script(object):
     HELP_TXT = """<b>𝐇𝐞𝐲 {}
 𝐇𝐞𝐫𝐞 𝐈𝐬 𝐓𝐡𝐞 𝐇𝐞𝐥𝐩 𝐅𝐨𝐫 𝐌𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐁𝐮𝐝𝐝𝐲</b>"""
 
-    ABOUT_TXT = """<b>✯ 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/SMD_FiltSream_Bot>🇸 🇲 🇩 Ⱥᵾŧø ᶠⁱˡᵗᵉʳ + 𝐒𝐫𝐞𝐚𝐦𝐁𝐨𝐭</a>
+    ABOUT_TXT = """<b>✯ 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/Samandes_bot>🍁🇸 🇲 🇩 Ⱥᵾŧø ᶠⁱˡᵗᵉʳ🦋</a>
 ✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : <a href='https://t.me/SMD_Owner'>𝐒𝐌𝐃_𝐎𝐰𝐧𝐞𝐫</a>
 ✯ 𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦
 ✯ 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : 𝐏𝐲𝐭𝐡𝐨𝐧 𝟑
@@ -20,9 +20,7 @@ class script(object):
 
     SOURCE_TXT = """𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐧 𝐎𝐩𝐞𝐧-𝐒𝐨𝐮𝐫𝐜𝐞 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐁𝐲 @SMD_Owner
 
-- 𝟏𝟎𝟎﹪ 𝐂𝐨𝐝𝐞𝐝 𝐁𝐲 <a href=https://t.me/SMD_Owner>🌿𝐑𝐨𝐥𝐞𝐱🦞</a>
-
-- & 𝐑𝐞𝐩𝐨 𝐋𝐢𝐧𝐤 👇 𝐇𝐞𝐫𝐞"""
+- 𝟏𝟎𝟎﹪ 𝐂𝐨𝐝𝐞𝐝 𝐁𝐲 <a href=https://t.me/SMD_Owner>🌿𝐒𝐌𝐃_𝐎𝐰𝐧𝐞𝐫🦋</a>"""
     
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
@@ -698,11 +696,3 @@ special Thanks To ❤️ Developers -
 
 - Dev 4 <a href='https://t.me/SAM_DUB_LEZHa'>SMD_Owner</a>
 """
-
-
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
-
-    
