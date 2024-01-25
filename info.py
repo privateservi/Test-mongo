@@ -104,7 +104,7 @@ SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'LazyPrincess'))
+name = str(environ.get('name', 'SMDbotZ'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
@@ -114,9 +114,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://smd-linkzz.koyeb.app/".format(FQDN)
+    URL = "https://smdfiletolink-m19440446.koyeb.app/".format(FQDN)
 else:
-    URL = "https://smd-linkzz.koyeb.app/".format(FQDN)
+    URL = "https://smdfiletolink-m19440446.koyeb.app/".format(FQDN)
 
 
 
